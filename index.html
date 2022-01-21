@@ -3,10 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dungeoneer: Generators</title>
+    <title>NPC generator</title>
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dungeoneer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Durtur">
+    <meta name="description" content="NPC Generator">
+    <meta property="og:title" content="Fantasy character generator">
+    <meta property="og:description"
+        content="Genarate an NPC, humanoid, human, dwarf, fiend, celestial, fey or aberration.">
+    <meta property="og:image" content="./img/ogimg.JPG">
+
+    <link rel="icon" type="image/svg+xml" href="./icon.png">
+
+
 
 
     <link href="./demoStyle.css" rel="stylesheet">
@@ -17,16 +31,22 @@
 
 <body>
     <div class="main_content_wrapper column">
-        <p class ="hidden">A concise NPC generator for your fantasy games. Generate a quick character. </p> 
-        <div class="column" style ="height:70%;">
+        <p class="hidden">A concise NPC generator for your fantasy games. Generate a quick character. </p>
+        <div class="column" style="height:70%;">
 
             <div class="row_wrap center spread_children icon_row" style="margin-bottom:0.5em;">
-                <div class ="generator_icon icon_human tooltipped" data-tooltip="Human" onclick = ' generate("anglo","humanoid")'></div>
-                <div class ="generator_icon icon_dwarf tooltipped" data-tooltip="Dwarf" onclick = ' generate("dwarven","dwarf")'></div>
-                <div class ="generator_icon icon_fiend tooltipped" data-tooltip="Fiend" onclick = ' generate("fiend","fiend")'></div>
-                <div class ="generator_icon icon_celestial tooltipped" data-tooltip="Celestial" onclick = ' generate("celestial","celestial")'></div>
-                <div class ="generator_icon icon_fey tooltipped" data-tooltip="Fey" onclick = ' generate("fey","fey")'></div>
-                <div class ="generator_icon icon_aberration tooltipped" data-tooltip="Aberration" onclick = ' generate("aberration","aberration")'></div>
+                <div class="generator_icon icon_human tooltipped" data-tooltip="Human"
+                    onclick=' generate("anglo","humanoid")'></div>
+                <div class="generator_icon icon_dwarf tooltipped" data-tooltip="Dwarf"
+                    onclick=' generate("dwarven","dwarf")'></div>
+                <div class="generator_icon icon_fiend tooltipped" data-tooltip="Fiend"
+                    onclick=' generate("fiend","fiend")'></div>
+                <div class="generator_icon icon_celestial tooltipped" data-tooltip="Celestial"
+                    onclick=' generate("celestial","celestial")'></div>
+                <div class="generator_icon icon_fey tooltipped" data-tooltip="Fey" onclick=' generate("fey","fey")'>
+                </div>
+                <div class="generator_icon icon_aberration tooltipped" data-tooltip="Aberration"
+                    onclick=' generate("aberration","aberration")'></div>
             </div>
             <section class="generator_result  row spread_children" id="npc_section">
                 <div class="column genchooser_smaller hidden">
@@ -66,16 +86,16 @@
 
 
 
-                    <div class="invisible_editable_text" id="generated_npc_description" ></div>
+                    <div class="invisible_editable_text" id="generated_npc_description"></div>
 
 
                 </div>
             </section>
 
-            <a class ="button_wide button_style  center dungeoneer_link" href="https://durtur.github.io/">Dungeoneer</a>
+            <a class="button_wide button_style  center dungeoneer_link" href="https://durtur.github.io/">Dungeoneer</a>
             </section>
         </div>
-     
+
     </div>
 
 
