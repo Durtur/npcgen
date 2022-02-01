@@ -1057,10 +1057,30 @@ const generatorData = {
         },
         "aberration": {
             "male": [
-                "Kltraphue"
+                "Kltraphue",
+                "Xrgon",
+                "Ewetmak",
+                "Hargan",
+                "Grub",
+                "Xlawfketh",
+                "Ixegar",
+                "Cthormoc",
+                "Hwrathar",
+                "Ktlorhyr"
+
             ],
             "female": [
+                "Kltraphue",
+                "Xrgon",
+                "Ewetmak",
+                "Hargan",
+                "Grub",
+                "Xlawfketh",
+                "Ixegar",
+                "Cthormoc",
+                "Hwrathar",
                 "Ktlorhyr"
+            
             ],
             "lastnames": [
                 ""
